@@ -1,0 +1,24 @@
+{
+  "name": "oauth2-poc",
+  "version": "1.0.0",
+  "description": "OAuth2.0 Proof of Concept",
+  "main": "index.js",
+  "scripts": {
+    "app-server": "node app-server/app-server.js",
+    "auth-server": "node auth-server/auth-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dockerlead/oauth2-poc.git"
+  },
+  "author": "dockerlead",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dockerlead/oauth2-poc/issues"
+  },
+  "homepage": "https://github.com/dockerlead/oauth2-poc#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
